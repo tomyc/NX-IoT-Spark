@@ -1,0 +1,14 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: NX-IoT-Spark
+  host: NX-IoT-Spark
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - NX-IoT-Spark-cloudantNoSQLDB
+  - NX-IoT-Spark-iotf-service
+  - Apache Spark-NX
+  - jKool-un-visual
